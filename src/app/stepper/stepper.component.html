@@ -1,0 +1,122 @@
+<mat-tab-group class="myDiv" animationDuration="0ms">
+    <mat-tab class="btn1 active" label="Step 1">
+        <div class="tab-content">
+            <h2>Where do you need to install the Alarm?</h2>
+            <mat-radio-group class="group-radio" aria-label="Select an option">
+                <mat-radio-button value="1">Apartment</mat-radio-button>
+                <mat-radio-button value="2">Villa</mat-radio-button>
+                <mat-radio-button value="2">Office</mat-radio-button>
+                <mat-radio-button value="2">Shop</mat-radio-button>
+                <mat-radio-button value="2">Warehouse</mat-radio-button>
+            </mat-radio-group>
+            <a id="custom-next-0" class="button-next float-right">Next step</a>
+        </div>
+    </mat-tab>
+    <mat-tab class="btn1" label="Step 2">
+        <div class="tab-content">
+            <h2>Where do you need to install the Alarm?</h2>
+            <label>Do you have the armored door. If yes, how many?</label>
+            <select class="form-select form-select-sm mb-4" aria-label=".form-select-sm example">
+                <option selected>Quantity</option>
+                <option value="1">0</option>
+                <option value="2">1</option>
+                <option value="3">2</option>
+                <option value="3">3</option>
+                <option value="3">More than 3</option>
+            </select>
+            <label>How many windows do you want to protect?</label>
+            <select class="form-select form-select-sm mb-4" aria-label=".form-select-sm example">
+                <option selected>Quantity</option>
+                <option value="1">0</option>
+                <option value="2">1</option>
+                <option value="3">2</option>
+                <option value="3">3</option>
+                <option value="3">More than 3</option>
+            </select>
+            <label>How many areas do you want to protect?</label>
+            <select class="form-select form-select-sm mb-4" aria-label=".form-select-sm example">
+                <option selected>Quantity</option>
+                <option value="1">0</option>
+                <option value="2">1</option>
+                <option value="3">2</option>
+                <option value="3">3</option>
+                <option value="3">More than 3</option>
+            </select>
+            <div class="btns">
+                <a id="custom-next-0" class="button-next">Previous step</a>
+                <a id="custom-next-0" class="button-next float-right">Next step</a>
+            </div>
+        </div>
+    </mat-tab>
+    <mat-tab class="btn1" label="Step 3">
+        <div class="tab-content">
+            <h2>Does the house have secondary accesses?</h2>
+            <section class="example-section group-radio">
+                <mat-checkbox class="example-margin">Garden</mat-checkbox>
+                <mat-checkbox class="example-margin">Balcony or terrace</mat-checkbox>
+                <mat-checkbox class="example-margin">No one</mat-checkbox>
+                <mat-checkbox class="example-margin">I'm not interested in protecting outdoor areas</mat-checkbox>
+            </section>
+            <div class="btns">
+                <a id="custom-next-0" class="button-next">Previous step</a>
+                <a id="custom-next-0" class="button-next float-right">Next step</a>
+            </div>
+        </div>
+    </mat-tab>
+    <mat-tab class="btn1" label="Step 4">
+        <div class="tab-content">
+            <h2>What is your budget?</h2>
+            <mat-radio-group class="group-radio" aria-label="Select an option">
+                <mat-radio-button value="1">300-500$</mat-radio-button>
+                <mat-radio-button value="2">500-1000$</mat-radio-button>
+                <mat-radio-button value="2">More than 1000$</mat-radio-button>
+                <mat-radio-button value="2">I don't know</mat-radio-button>
+            </mat-radio-group>
+            <div class="btns">
+                <a id="custom-next-0" class="button-next">Previous step</a>
+                <a id="custom-next-0" class="button-next float-right">Next step</a>
+            </div>
+        </div>
+    </mat-tab>
+    <mat-tab class="btn1" label="Step 5">
+        <div class="tab-content">
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">First name</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Last name</label>
+                    <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Telephone</label>
+                    <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <hr class="hr2">
+                <div class="col-md-12">
+                    <label for="inputCity" class="form-label">Describe your property type as much as possible:rooms, electric equipment, volumes, etc...
+                    </label>
+                    <input type="textarea" height="100px" class="form-control textarea" id="inputCity">
+                </div>
+
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                            <a href="">I accept terms and condition</a> 
+                        </label>
+                    </div>
+                </div>
+            </form>
+            <div class="btns">
+                <a id="custom-next-0" class="button-next">Previous step</a>
+                <a id="custom-next-0" class="button-next btn-danger float-right">FINISH!</a>
+            </div>
+        </div>
+    </mat-tab>
+</mat-tab-group>

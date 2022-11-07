@@ -1,0 +1,123 @@
+::ng-deep .mat-tab-label {
+    min-width: 100px !important;
+    background: #dddddd;
+    border: 1px solid white;
+}
+
+::ng-deep .mat-ink-bar {
+    visibility: hidden !important;
+}
+.active, .btn:hover {
+    background-color: rgb(255, 0, 0);
+    color: white;
+  }
+::ng-deep .mat-tab-label:focus:not(.mat-tab-disabled) {
+    opacity: 1;
+    background: red;
+    color: white;
+}
+
+::ng-deep .mat-tab-label:active:not(.mat-tab-disabled) {
+    opacity: 1;
+    background: red;
+    color: white;
+}
+
+::ng-deep.mat-tab-header {
+    border-bottom: none;
+}
+
+.tab-content {
+    background-color: #F3F3F3;
+    padding: 30px;
+}
+
+.group-radio {
+    display: flex;
+    flex-direction: column;
+}
+
+::ng-deep .mat-radio-checked .mat-radio-outer-circle {
+
+    border-color: #fd0606 !important;
+}
+
+::ng-deep .mat-radio-button.mat-accent .mat-radio-inner-circle {
+    background-color: #fd0606 !important;
+}
+
+mat-radio-button {
+    margin: 8px 0%;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+
+    .button-back,
+    .button-next {
+        margin-top: 17px;
+    }
+}
+
+.button-back,
+.button-next {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    text-decoration: none;
+    color: #fff;
+    background: #06c;
+    cursor: pointer;
+    padding: 7px 20px;
+    outline: 0;
+    font-size: 12px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: -20px;
+    float: right;
+}
+
+.button-back,
+.button-next:hover {
+    background: #333;
+}
+
+.form-select:focus {
+    border-color: #64646494;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13, 109, 253, 0);
+}
+
+select,
+label {
+    color: rgb(95, 95, 95);
+    margin-bottom: 4px;
+}
+
+::ng-deep .mat-checkbox-checked:not(.mat-checkbox-disabled).mat-accent .mat-ripple-element{
+    background: #ff0000 !important;
+}
+mat-checkbox{
+    margin-bottom: 10px;
+    color:  rgb(95, 95, 95);
+}
+.textarea{
+    height: 100px;
+}
+.hr2{
+    border-top: 1px dashed rgba(0, 0, 0, 0.493);
+    margin-bottom: 3%;
+    margin-top: 5%;
+}
+.btn-danger{
+    background-color: #fd0606;
+}
+.form-check-input:checked {
+    background-color: #f00;
+    border-color: #f00;
+}
+a{
+    text-decoration: none;
+}

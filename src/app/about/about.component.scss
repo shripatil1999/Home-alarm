@@ -1,0 +1,296 @@
+main {
+    position: relative;
+    z-index: 99;
+    background: white;
+    margin-bottom: 23.7%;
+}
+
+.head-parallax {
+    background-image: url("http://www.ansonika.com/homealarms/img/subheader_in_3.jpg");
+    background-size: 317px -1px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: -1px 10px, 3% 7%;
+    height: 345px;
+    display: table;
+    position: relative;
+
+    .sub_content_in {
+        display: table-cell;
+        padding: 45px 0 0 0;
+        vertical-align: bottom;
+        text-align: left;
+        background: rgba(0, 0, 0, .7);
+        color: #fff;
+    }
+
+    .sub_content_in h1 {
+        color: #fff;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 42px;
+        margin-bottom: 0;
+    }
+
+    .sub_content_in p {
+        color: #fff;
+        font-size: 24px;
+        font-weight: 300;
+        margin-top: 12px;
+        margin-bottom: 27px;
+    }
+}
+
+.intro {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    figcaption {
+        padding: 1.5em 10em;
+    }
+
+    h2 {
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-top: 0;
+        font-size: 30px;
+    }
+
+}
+
+.lead {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.4;
+    color: rgb(68, 68, 68);
+    font-family: inherit;
+}
+
+.dotted {
+    border-top: 1px dashed #000000ba;
+    margin-bottom: 3%;
+}
+
+.words {
+    h3 {
+        font-size: 24px;
+        color: #333;
+    }
+
+    p {
+        color: #555;
+        margin-bottom: 30px;
+    }
+
+    h4 {
+        font-size: 19px;
+    }
+}
+
+.container-fluid {
+    padding: 0 75px 35px;
+
+    ul.feat#about {
+        list-style: none;
+        margin: 0px 0 20px 0;
+        padding: 0;
+    }
+
+    ul.feat#about li {
+        margin-bottom: 20px;
+        padding: 17px 8px 10px 12px;
+        border: 1px solid #ddd;
+        background-color: #f3f3f3;
+    }
+
+    ul.feat#about li h4 {
+        color: #362f2d;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    ul.feat#about li i {
+        font-size: 42px;
+        color: #f33;
+    }
+
+    .feat {
+        li {
+            display: flex;
+        }
+    }
+}
+
+.text-center {
+    h2 {
+        -webkit-font-smoothing: antialiased;
+        color: #333;
+        font-size: 30px;
+        font-family: inherit;
+    }
+}
+
+.promo {
+    background: url('http://www.ansonika.com/homealarms/img/promo_bg.jpg') no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    position: relative;
+    padding: 7% 5% 5% 5%;
+    position: relative;
+}
+
+.sub-promo {
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+
+    h3 {
+        font-size: 48px;
+        text-transform: uppercase;
+        font-weight: 300;
+        color: #fff;
+        margin-bottom: 30px;
+
+        span {
+            color: #fff;
+            font-size: 24px;
+            line-height: 40px;
+            text-transform: none;
+        }
+    }
+}
+
+.home {
+    width: 70%;
+}
+.feat{
+    .ps-3{
+        color: #5e5e5e;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+
+    .sub_content_in {
+        h1 {
+            font-size: 32px !important;
+        }
+
+        p {
+            font-size: 20px !important;
+        }
+    }
+
+    main {
+        margin-bottom: 157% !important;
+    }
+    .head-parallax {
+        height: 220px;
+        background-position: -570px -34px, -31% 22%;
+    }
+    .sub-promo {
+        h3 {
+            font-size: 38px;
+
+            span {
+                font-size: 19px;
+                line-height: 0px;
+            }
+        }
+    }
+
+    .container-fluid {
+        padding: 0px 19px 35px;
+    }
+
+    figcaption {
+        padding: 1.5em 0em !important;
+    }
+
+    .home {
+        width: 100%;
+    }
+
+    .head-parallax {
+        h1 {
+            font-size: 33px !important;
+        }
+
+        p {
+            line-height: 25px;
+        }
+    }
+
+    .intro {
+        padding-bottom: 0%;
+    }
+
+    .comment {
+        font-size: 1px;
+        text-align: center !important;
+    }
+    .lead{
+        font-size: 16px;
+        color: #2c2c2c;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+    main {
+        margin-bottom: 79% !important;
+    }
+
+    .words{
+        padding-right: 10%;
+    }
+    .sub-promo {
+        h3 {
+            font-size: 38px;
+
+            span {
+                font-size: 25px;
+                line-height: 0px;
+            }
+        }
+    }
+
+    .container-fluid {
+        padding: 0px 19px 35px;
+    }
+
+    figcaption {
+        padding: 1.5em 0em !important;
+    }
+
+    .home {
+        width: 100%;
+    }
+
+    .head-parallax {
+        h1 {
+            font-size: 33px !important;
+        }
+
+        p {
+            line-height: 25px;
+        }
+    }
+
+    .intro {
+        padding-bottom: 0%;
+    }
+
+    .team-item-detail {
+        height: 101% !important;
+    }
+    
+}

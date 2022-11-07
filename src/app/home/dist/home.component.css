@@ -1,0 +1,407 @@
+main {
+  position: relative;
+  z-index: 99;
+  background: white;
+  top: 14%;
+  margin-bottom: 33%;
+}
+
+.carousel-control-prev {
+  justify-content: start !important;
+  visibility: hidden;
+}
+
+.carousel-control-next {
+  justify-content: end !important;
+  right: 10px;
+  visibility: hidden;
+}
+
+.carousel:hover .carousel-control-prev {
+  visibility: visible;
+}
+
+.carousel:hover .carousel-control-next {
+  visibility: visible;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 3rem !important;
+  height: 15rem !important;
+}
+
+.carousel-item {
+  height: 600px;
+}
+.carousel-item img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-caption {
+  text-align: center;
+}
+.carousel-caption .btn {
+  background-color: #f33;
+  color: #ffff;
+  padding: 11px 34px;
+  border-radius: 4%;
+  font-size: 12px;
+  font-weight: 500;
+}
+.carousel-caption .btn:hover {
+  background: #06c;
+}
+.carousel-caption h1 {
+  font-size: 56.9531px;
+  font-weight: 900;
+}
+.carousel-caption p {
+  font-size: 27.9781px;
+  margin-bottom: 3%;
+}
+
+.caption1 {
+  bottom: 14.5rem !important;
+  left: 9% !important;
+  position: absolute !important;
+  text-align: start;
+}
+
+.caption2 {
+  bottom: 14.5rem !important;
+  left: 10% !important;
+}
+
+.caption3 {
+  bottom: 14.5rem !important;
+  left: 10% !important;
+}
+
+.get-quote {
+  padding: 2em 5em;
+  background-color: #ED2524;
+  color: #ffff;
+}
+.get-quote h1 {
+  margin: 5px 0 0 0;
+  font-size: 32px;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+}
+.get-quote .btn {
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: #fff;
+  padding: 7px 30px;
+  font-size: 14px;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: 500;
+  background-color: #222;
+  float: right;
+  margin-top: 5px;
+}
+.get-quote .btn:hover {
+  color: #222;
+  background-color: #fff;
+}
+
+.feat-home {
+  background-color: #f3f3f3;
+  padding: 6% 0% 3% 5%;
+  font-family: "Poppins", sans-serif;
+}
+.feat-home .box-feat {
+  position: relative;
+  margin-bottom: 35px;
+  color: #555;
+}
+.feat-home .box-feat .back-white {
+  width: 90px;
+  height: 90px;
+  z-index: 999;
+  background-color: white;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 90px;
+}
+.feat-home .box-feat h3 {
+  font-size: 22px;
+  margin-bottom: 7px;
+  font-weight: 500;
+  color: #222;
+  font-family: "Poppins", sans-serif;
+}
+.feat-home .box-feat p {
+  font-size: 13.5px;
+  font-weight: 500;
+  color: #0e0e0ea6;
+  font-family: "Poppins", sans-serif;
+}
+
+.steps {
+  padding: 60px 51px 35px;
+}
+.steps h3 {
+  font-size: 32px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  line-height: 1;
+}
+.steps h3 strong {
+  color: #f33;
+  display: block;
+}
+.steps .lead {
+  margin-bottom: 20px;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 1.4;
+  color: #555;
+}
+.steps ul {
+  list-style: none;
+  padding-left: 0%;
+  color: #555;
+}
+.steps ul li {
+  position: relative;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.steps ul li i {
+  margin-right: 10px;
+}
+.steps hr {
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+.steps h4 {
+  font-size: 22px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.steps figure {
+  overflow: hidden;
+}
+.steps figure p {
+  margin: 0 0 25px 0;
+  color: #555;
+}
+.steps figure .parent {
+  width: 100%;
+  height: 177px;
+  overflow: hidden;
+  transition: all 0.5s;
+  outline: 0px;
+  border: none;
+  border-radius: 0%;
+  border-bottom: #f33 3px solid;
+}
+.steps figure .child {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  /* fallback color */
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  transition: all 0.5s;
+}
+.steps figure .child2 {
+  background-image: url("http://www.ansonika.com/homealarms/img/service_home_2.jpg");
+}
+.steps figure .child1 {
+  background-image: url("http://www.ansonika.com/homealarms/img/service_home_1.jpg");
+}
+.steps figure .child3 {
+  background-image: url("http://www.ansonika.com/homealarms/img/service_home_3.jpg");
+}
+.steps figure .parent:hover .child,
+.steps figure .parent:focus .child {
+  transform: scale(1.15);
+  transition: all 0.8s;
+}
+
+.bg-content {
+  display: table;
+  z-index: 1;
+  width: 100%;
+  margin-bottom: 23%;
+  height: 500px;
+  background: url("http://www.ansonika.com/homealarms/img/bg_parallax.jpg") no-repeat center center;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  position: relative;
+}
+
+.bg-content > div {
+  display: table-cell;
+  padding: 0 20%;
+  vertical-align: middle;
+  text-align: center;
+  color: #222;
+  font-size: 18px;
+  font-weight: 400;
+  background: rgba(255, 255, 255, 0.5);
+}
+.bg-content > div h3 {
+  font-size: 48px;
+  font-weight: 300;
+  color: #222;
+  margin-bottom: 0.5em;
+}
+.bg-content > div a {
+  color: #ED2524;
+}
+.bg-content > div p {
+  line-height: 24px;
+}
+.bg-content > div i {
+  margin-top: 0.3em;
+}
+.bg-content > div .text-end {
+  position: relative;
+  right: -480px;
+  top: -10px;
+}
+
+.modal-content {
+  width: 0px !important;
+  background-color: transparent;
+}
+
+.modal-body {
+  height: 400px;
+  width: 100%;
+  padding: 0%;
+}
+.modal-body iframe {
+  width: 500px;
+  height: 400px;
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel-caption h1 {
+    font-size: 20px;
+    margin-bottom: 0%;
+  }
+  .carousel-caption p {
+    font-size: 12px;
+  }
+  .carousel-caption .btn {
+    padding: 5px 11px;
+    font-size: 8px;
+  }
+
+  .caption1,
+.caption2,
+.caption3 {
+    bottom: 0rem !important;
+    text-align: center !important;
+  }
+
+  .carousel-item {
+    height: 156px;
+  }
+
+  .get-quote {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    padding: 2.2em 2em;
+  }
+  .get-quote h1 {
+    font-size: 24px;
+    line-height: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+  }
+  .get-quote .btn {
+    float: none;
+  }
+
+  .box-feat {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bg-content > div {
+    padding: 0 5%;
+  }
+  .bg-content > div h3 {
+    font-size: 34px;
+  }
+
+  .feat-home {
+    padding: 6% 0% 3% 0%;
+  }
+
+  .steps {
+    padding: 60px 4px 35px;
+  }
+  .steps h4 {
+    margin-bottom: 2%;
+  }
+
+  .bg-content {
+    margin-bottom: 157% !important;
+  }
+  .bg-content div p {
+    font-size: 16px;
+  }
+
+  main {
+    top: 0% !important;
+    margin-bottom: 0% !important;
+  }
+}
+@media (min-width: 600px) and (max-width: 900px) {
+  main {
+    margin-bottom: 84% !important;
+    top: 4%;
+  }
+
+  .carousel-caption h1 {
+    font-size: 34px;
+    margin-bottom: 3%;
+  }
+  .carousel-caption p {
+    font-size: 24px;
+  }
+  .carousel-caption .btn {
+    padding: 5px 11px;
+    font-size: 12px;
+  }
+
+  .get-quote {
+    text-align: center;
+  }
+  .get-quote h1 {
+    font-size: 28px;
+    margin-bottom: 1%;
+  }
+  .get-quote .btn {
+    float: none;
+  }
+
+  .navbar-collapse.show {
+    margin-top: 5%;
+  }
+
+  .steps {
+    padding: 60px 1px 35px;
+  }
+}

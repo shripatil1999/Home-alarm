@@ -1,0 +1,241 @@
+@charset "UTF-8";
+main {
+  position: relative;
+  z-index: 99;
+  background: white;
+  margin-bottom: 28%;
+}
+
+.head-parallax {
+  background: url("http://www.ansonika.com/homealarms/img/subheader_in_1.jpg");
+  background-size: 317px -1px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: -1px 10px, 3% 7%;
+  height: 345px;
+  display: table;
+  position: relative;
+}
+.head-parallax .sub_content_in {
+  display: table-cell;
+  padding: 45px 0 0 0;
+  vertical-align: bottom;
+  text-align: left;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+}
+.head-parallax .sub_content_in h1 {
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 42px;
+  margin-bottom: 0;
+}
+.head-parallax .sub_content_in p {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 300;
+  margin-top: 12px;
+  margin-bottom: 27px;
+}
+
+h3 {
+  font-size: 22px;
+  margin-top: 5%;
+  font-weight: 500;
+  margin-bottom: 2%;
+}
+
+.service {
+  padding: 5% 5% 5%;
+  margin-bottom: 25%;
+}
+.service .air-img {
+  border-bottom: 3px solid #f33;
+  border-spacing: 0px;
+  width: 100%;
+  display: block;
+}
+.service p {
+  line-height: 1.4;
+  color: #5f5f5f;
+}
+
+.hr2 {
+  border-top: 1px dashed #575757;
+  margin-bottom: 3%;
+}
+
+.feat {
+  list-style: none;
+  padding-left: 0%;
+}
+.feat li {
+  display: flex;
+}
+.feat li img {
+  margin-right: 15px;
+}
+.feat li h4 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 6px;
+}
+.feat li p {
+  line-height: 1.4;
+  color: #5f5f5f;
+}
+
+.cost-table td {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+  color: #403f3feb;
+}
+
+.table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #ddd;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #ffffff;
+}
+
+.box_style_1 {
+  padding: 10px;
+  position: relative;
+  background: #f9f9f9;
+  margin-bottom: 20px;
+}
+.box_style_1 h5 {
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+ul#cat_nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+}
+
+ul#cat_nav li a {
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  display: block;
+  margin-bottom: 7px;
+  position: relative;
+  text-decoration: none;
+}
+ul#cat_nav li a i {
+  font-size: 10px;
+}
+
+ul#cat_nav li a:hover {
+  color: black;
+}
+
+.link_normal {
+  text-decoration: none;
+  font-weight: 500;
+}
+.link_normal i {
+  font-size: 10px;
+}
+
+.link_normal:hover {
+  color: black;
+}
+
+.quote_banner {
+  position: relative;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.quote_banner a {
+  background-color: #362f2d;
+  color: #fff;
+  display: block;
+  padding: 17px 15px 15px 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.quote_banner a i {
+  margin-right: 15px;
+}
+
+.quote_banner:before {
+  font-style: normal;
+  font-weight: 400;
+  font-family: ElegantIcons;
+  content: "";
+  top: 15px;
+  font-size: 18px;
+  margin-right: 5px;
+  position: absolute;
+  left: 15px;
+  color: #fff;
+}
+
+.box_style_2 {
+  padding: 10px 25px 0 25px;
+  margin-bottom: 20px;
+  border: 1px dashed #ddd;
+}
+
+.box_style_2 h4 {
+  margin: 10px 0 20px;
+  color: #333;
+  font-size: 18px;
+}
+
+.box_style_2 ul {
+  padding-left: 20px;
+  padding-bottom: 10px;
+  color: #5f5f5f;
+}
+
+@media only screen and (max-width: 600px) {
+  .sub_content_in h1 {
+    font-size: 28px !important;
+  }
+
+  .sub_content_in h1 {
+    font-size: 32px;
+  }
+  .sub_content_in p {
+    font-size: 20px !important;
+    margin-top: 0% !important;
+  }
+
+  main {
+    margin-bottom: 161% !important;
+  }
+
+  .head-parallax {
+    height: 220px;
+    background-position: -452px 1px, -31%;
+  }
+
+  .hr2 {
+    margin-bottom: 9%;
+  }
+}
+@media (min-width: 600px) and (max-width: 900px) {
+  main {
+    margin-bottom: 79% !important;
+  }
+
+  .service {
+    padding: 5% 3% 5%;
+  }
+}
