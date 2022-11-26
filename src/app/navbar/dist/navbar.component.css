@@ -92,7 +92,7 @@ nav {
 }
 
 .navbar-expand-lg {
-  margin-top: 3%;
+  margin-top: 3.5%;
 }
 
 nav.nav--shown {
@@ -191,7 +191,4 @@ nav.nav--hidden {
     margin-top: 7%;
   }
 
-  .navbar-expand-lg {
-    margin-top: 5%;
-  }
 }
